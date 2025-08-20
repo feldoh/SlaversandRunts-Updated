@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>GrimFuture's Slavers and Runts</name>
+  <author>commandochief</author>
+  <packageId>GrimFuturesSlaversandRunts.Mod</packageId>
+   <supportedVersions>
+    <li>1.5</li>
+     <li>1.6</li>
+  </supportedVersions>
+
+  <modDependencies>
+    <li>
+      <packageId>ludeon.rimworld.biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+  </modDependencies>
+
+  <loadAfter>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+  </loadAfter>
+  
+  <description>
+This mod adds two Xenotypes from a friend's own fiction realm, these two Xenotypes are known as "Slavers" and "Runts" or Dral'vuk and Runtix in their own native togue, inspired by the Brutes or Jiralhanae as well as the Orks of Warhammer 40K in some extent these so=called Slavers are known to be extremely zealous, brutal and unpredictable making them quite a threat and have a tendicey to relay on their more weaker subordinates the Runts to do the more Intellectual work.</description>
+</ModMetaData>
