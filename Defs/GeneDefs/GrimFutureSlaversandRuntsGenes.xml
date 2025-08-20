@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <GeneDef>
+        <defName>GrimFutureSlaversAndRunts_VekkarousChosen</defName>
+        <label>Chosen of Vek'karous</label>
+        <labelShortAdj>Chosen</labelShortAdj>
+        <description>Carriers of this gene are chosen by Vek'karous</description>
+        <iconPath>UI/Genes/SlaverGeneIcon</iconPath>
+        <displayOrderInCategory>10</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+        <customEffectDescriptions>
+            <li>Never considered ugly by other chosen.</li>
+        </customEffectDescriptions>
+    </GeneDef>
+</Defs>

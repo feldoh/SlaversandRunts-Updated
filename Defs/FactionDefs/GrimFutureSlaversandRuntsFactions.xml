@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+    <!-- Fierce Tribe -->
+    <FactionDef ParentName="TribeRoughBase">
+        <defName>GrimFutureSlaversAndRunts_GiantBugEnslavers</defName>
+        <label>Enslavers of Giant-Bug</label>
+        <description>These are pacts of Slavers and Runts who have turned their back on the Worship of Saviik and Vek'karous in favour of serving an Eldritch Draconian Insect that consumes worlds as they would have you believe.</description>
+        <pawnSingular>Devourer Worshipper</pawnSingular>
+        <pawnsPlural>Devourer Worshippers</pawnsPlural>
+        <allowedCultures>
+            <li>Corunan</li>
+        </allowedCultures>
+        <structureMemeWeights>
+            <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+        </structureMemeWeights>
+        <requiredMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">raider</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">human primacy</li>
+        </requiredMemes>
+        <xenotypeSet Inherit="False">
+            <xenotypeChances>
+                <GrimFutureSlaversAndRunts_Slaver MayRequire="Ludeon.RimWorld.Biotech">0.9</GrimFutureSlaversAndRunts_Slaver>
+                <GrimFutureSlaversAndRunts_Runtix MayRequire="Ludeon.RimWorld.Biotech">0.5</GrimFutureSlaversAndRunts_Runtix>
+            </xenotypeChances>
+        </xenotypeSet>
+        <disallowedPrecepts>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+        </disallowedPrecepts>
+        <colorSpectrum>
+            <li>(0.85, 0.75, 0.37)</li>
+            <li>(0.94, 0.61, 0.06)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <configurationListOrderPriority>30</configurationListOrderPriority>
+    </FactionDef>
+    <!-- Not Quite So Fierce Tribe -->
+    <FactionDef ParentName="TribeBase">
+        <defName>GrimFutureSlaversAndRunts_TheUncorrupted</defName>
+        <label>The Uncorrupted Dral'vuk Tribes</label>
+        <description>These Gentle Tribes folk of Slavers and Runts seem to be uncorrupted by the horrid Eldritch being known as The Devourer and instead remain loyal to Saviik-Ur and their Creator known as Vek’karous, they seem friendly but be aware they still share the tendicey to be quick to Violence.</description>
+        <factionIconPath>World/WorldObjects/Expanding/VillageSavage</factionIconPath>
+        <factionNameMaker>NamerFactionTribal</factionNameMaker>
+        <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+        <pawnSingular>Uncorrupted Slavers </pawnSingular>
+        <pawnsPlural>Uncorrupted Slavers</pawnsPlural>
+        <allowedCultures>
+            <li>Corunan</li>
+        </allowedCultures>
+        <structureMemeWeights>
+            <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+        </structureMemeWeights>
+        <requiredMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+        </requiredMemes>
+        <xenotypeSet Inherit="False">
+            <xenotypeChances>
+                <GrimFutureSlaversAndRunts_Slaver MayRequire="Ludeon.RimWorld.Biotech">0.9</GrimFutureSlaversAndRunts_Slaver>
+                <GrimFutureSlaversAndRunts_Runtix MayRequire="Ludeon.RimWorld.Biotech">0.5</GrimFutureSlaversAndRunts_Runtix>
+            </xenotypeChances>
+        </xenotypeSet>
+        <disallowedPrecepts>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+        </disallowedPrecepts>
+    </FactionDef>
+</Defs>
