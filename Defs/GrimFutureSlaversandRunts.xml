@@ -7,7 +7,7 @@
        <label>Slaver</label>
        <description> </description>
        <descriptionShort> </descriptionShort>
-       <iconPath>RimWorld\Mods\Slavers & Runts\Defs\genedef\SlaverGeneIcon</iconPath>
+       <iconPath>RimWorld\Mods\SlaverandRunts\Defs\genedef\SlaverGeneIcon</iconPath>
        <inheritable>true</inheritable>
        <genes>
            <li>Ears_Human</li>
