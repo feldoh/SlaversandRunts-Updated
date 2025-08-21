@@ -40,11 +40,7 @@
     <FactionDef ParentName="TribeBase">
         <defName>GrimFutureSlaversAndRunts_TheUncorrupted</defName>
         <label>The Uncorrupted Dral'vuk Tribes</label>
-<<<<<<< HEAD
         <description>These Not Quite So Fierce Tribes folk of Slavers and Runts seem to be uncorrupted by the horrid Eldritch being known as The Devourer and instead remain loyal to Saviik-Ur and their Creator known as Vek'karous, they seem friendly but be aware they still share the tendency to be quick to Violence.</description>
-=======
-        <description>These Not Quite So Fierce Tribes folk of Slavers and Runts seem to be uncorrupted by the horrid Eldritch being known as The Devourer and instead remain loyal to Saviik-Ur and their Creator known as Vek'karous, they seem friendly but be aware they still share the tendicey to be quick to Violence.</description>
->>>>>>> main
         <factionIconPath>World/WorldObjects/Expanding/VillageSavage</factionIconPath>
         <factionNameMaker>NamerFactionTribal</factionNameMaker>
         <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
