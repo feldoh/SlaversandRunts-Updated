@@ -12,10 +12,10 @@
             <li>Ears_Human</li>
             <li>Skin_LightGray</li>
             <li>Skin_SheerWhite</li>
-            <li>Pig_Nose</li>
+            <li>Nose_Pig</li>
             <li>GrimFutureSlaversAndRunts_VekkarousChosen</li>
             <li>StrongStomach</li>
-            <li>Human_Hands</li>
+            <li>Hands_Human</li>
             <li>Jaw_Heavy</li>
             <li>Headbone_Human</li>
             <li>VoiceRoar</li>
@@ -25,17 +25,15 @@
             <li>MaxTemp_SmallDecrease</li>
             <li>MoveSpeed_Quick</li>
             <li>PsychicAbility_Dull</li>
-            <li>Tolerance_Cold</li>
-            <li>Tolerance_Heat</li>
-            <li>Aggressive</li>
+            <li>Aggression_Aggressive</li>
             <li>Pain_Reduced</li>
             <li>Fertile</li>
             <li>Libido_High</li>
             <li>Body_Hulk</li>
             <li>Body_Fat</li>
-            <li>Melee_Strong</li>
-            <li>Shooting_Poor</li>
-            <li>Intellectual_Poor</li>
+            <li>AptitudeStrong_Melee</li>
+            <li>AptitudePoor_Shooting</li>
+            <li>AptitudePoor_Intellectual</li>
         </genes>
     </XenotypeDef>
 
@@ -53,7 +51,7 @@
             <li>Skin_PaleYellow</li>
             <li>Eyes_Red</li>
             <li>GrimFutureSlaversAndRunts_VekkarousChosen</li>
-            <li>Human_Hands</li>
+            <li>Hands_Human</li>
             <li>Head_Gaunt</li>
             <li>Headbone_Human</li>
             <li>WoundHealing_Slow</li>
@@ -62,22 +60,20 @@
             <li>MaxTemp_SmallDecrease</li>
             <li>MoveSpeed_VeryQuick</li>
             <li>PsychicAbility_Enhanced</li>
-            <li>Tolerance_Cold</li>
-            <li>Tolerance_Heat</li>
-            <li>Aggressive</li>
+            <li>Aggression_Aggressive</li>
             <li>Pain_Extra</li>
             <li>Delicate</li>
             <li>Fertile</li>
             <li>Libido_High</li>
             <li>MeleeDamage_Weak</li>
             <li>Body_Thin</li>
-            <li>Melee_awful</li>
-            <li>Shooting_Poor</li>
+            <li>AptitudeTerrible_Melee</li>
+            <li>AptitudeStrong_Shooting</li>
             <li>StrongStomach</li>
-            <li>Intellectual_Strong</li>
-            <li>Crafting_Strong</li>
-            <li>Animals_awful</li>
-            <li>DarkVisions</li>
+            <li>AptitudeStrong_Intellectual</li>
+            <li>AptitudeStrong_Crafting</li>
+            <li>AptitudeTerrible_Animals</li>
+            <li>DarkVision</li>
             <li>Learning_Fast</li>
             <li>FireWeakness</li>
             <li>Brow_Heavy</li>
